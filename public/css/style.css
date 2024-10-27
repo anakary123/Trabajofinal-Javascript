@@ -1,0 +1,399 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, p {
+    color: white;
+    text-align: center;
+}
+
+
+.header {
+    position: relative;
+    height: 60vh;
+    background: url('../img/fondo.png') no-repeat center center/cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(109, 107, 107, 0.6);
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.search-bar input, .search-bar button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.search-bar button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+/* Sección de destinos */
+.destinos-section {
+    padding: 40px;
+    background: url('../img/fondo2.png') no-repeat center center/cover;
+}
+
+.destinos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 35px;
+}
+
+
+.destino-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.destino-card:hover {
+    transform: translateY(-10px);
+}
+
+.destino-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.destino-card h2 {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+.destino-card p {
+    padding: 0 20px;
+    color: #555;
+}
+
+.destino-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.destino-card button:hover {
+    background-color: #0056b3;
+}
+
+/*input de presupuesto*/
+.btn {
+    padding: 10px 25px;
+    font-size: 1.2em;
+    color: rgba(42, 81, 113, 0.615);
+    background-color: #c3f5f1;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 65px;
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Familia tipográfica */
+
+}
+.btn-secondary {
+    background-color:darkcyan;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+.btn:hover {
+    background-color: #0fc2ea;
+}
+/*boton de la galeria*/
+
+.custom-btn {
+    padding: 10px 25px;
+    margin-left: 70px;
+    font-size: 1.2em;
+    color: rgba(42, 81, 113, 0.615);
+    background-color: #c3f5f1;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+/*Estilos del Logo*/
+.d-inline-block{
+    border-radius: 50px;
+}
+
+.navbar-fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+}
+
+.nav-link.active{
+    font-weight: bold;
+}
+/*Estilos de la galeria conoce tus destinos*/
+#noticiascontainer {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias filas si es necesario */
+    margin: 10px; /* Ajuste de margen negativo para compensar el padding */
+    padding: 50px;
+    gap: 0px; /* Espacio entre las imágenes */
+}
+
+#noticiascontainer img {
+    
+    box-sizing: border-box; /* Para incluir el padding y borde en el ancho total */
+    width: 345px;
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+
+.card-title{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 - 10px;
+}
+.card-img-top{
+    justify-content: center;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card-text{
+    font-size: 1rem;
+    color:#070707
+}
+
+.primerlado {
+    height: 100vh;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+    
+.segundolado {
+    width: 50%;
+    height: 100vh;
+    padding: 0;
+
+}
+    
+#division {
+    display: flex;
+    height: 100vh;
+}
+
+/*conoce tus destinos*/
+
+#destinos{
+    margin-top: 5px;
+
+}
+
+
+.sectionPadding {
+    padding: 50px;
+}
+
+
+/*reseñas*/
+#reseñas1{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#reseñascontainer {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias filas */
+    margin: 0 -10px; /* Ajuste de margen negativo para compensar el padding */
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+.custom-card {
+justify-content: center;
+align-items: center;
+background-color: #daf6f7;
+box-shadow: 0 4px 8px rgba(82, 50, 81, 0.652);
+}
+
+.custom-card-body {
+    margin-left: 10;
+    justify-items: center;
+    padding: auto;
+}
+
+.card-title {
+text-align: center;
+font-size: 1.5rem;
+color:#070707
+
+}
+
+.card-text {
+    text-align: center;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*galeria*/
+#galeria1{
+   
+    margin-top: 100px;
+    text-align: center;
+    color: #178b8b;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.galeria-img {
+    object-fit: cover; /* Para llenar el área definida sin distorsión */
+    border-radius: 5px; /* Opcional: esquinas redondeadas */
+    border: 1px solid #ddd; /* Opcional: borde para resaltar la imagen */
+    margin:auto;
+    padding: 10px;
+    display: block;
+}
+
+/*estilos para el presupuesto*/
+.error{
+  background: red;
+  font-size: 12px;
+}
+
+.presupuesto {
+    font-weight: bold;
+    color:darkgreen;
+    font-size: 30px;
+}
+#presupuesto1{
+    margin-top: 150px;
+    text-align: center;
+    color: #178b8b;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.parte1{
+    color: #178b8b;
+}
+.parte2{
+    color: #178b8b;
+}
+
+/*estilos para el footer*/
+
+footer {
+    background-color: #178b8b;
+    color: white;
+    font-size:small;
+    text-align: center;
+    margin-top: 50px; /* Agrega espacio entre la sección anterior y el footer */
+    padding: 20px;
+}
+
+.social-icons {
+    margin-bottom: 5px;
+}
+.social-icons img {
+    width: 40px;
+    margin: 20px;
+}
+.company-info, .legal-notice {
+    margin: 5px 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+.espacioEntreElementosDelPresupuesto {
+    margin-bottom: 35px;
+}
+
+/* estilos contacto*/
+#contacto1{
+margin-top: 150px;
+text-align: center;
+color: #178b8b;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.presupuestoFinal {
+    border: none;
+    
+}
+
+.presupuestoFinal:focus {
+    outline: none;
+}
+
+/*sobre nosotros*/
+.Nosotros{
+    font-size: 18px;
+     color: #0f0f0f;
+      line-height: 1.6; 
+      text-align: center; 
+      margin-right: 10%; 
+      margin-left: 10%;
+}

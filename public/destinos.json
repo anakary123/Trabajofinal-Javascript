@@ -1,0 +1,34 @@
+[
+  {
+      "nombre": "Paquete a Cancún",
+      "descripcion": "Disfruta de 7 días en Cancún con todo incluido.",
+      "imagen": "public/img/caribe.jpg"
+  },
+  {
+      "nombre": "Europa",
+      "descripcion": "Recorre las principales ciudades Europeas en 15 días.",
+      "imagen": "public/img/europa.jpg"
+  },
+  {
+      "nombre": "Caribe",
+      "descripcion": "Un sueño de lujo en un crucero por el caribe.",
+      "imagen": "public/img/crucero.jpg"
+  },
+  {
+    "nombre": "Aventura en Machu Picchu",
+    "descripcion": "Explora las maravillas de Macchu Picchu.",
+    "imagen": "public/img/cuzco.jpg"
+},
+{
+    "nombre": "Maldivas",
+    "descripcion": "Relájate en un resort de lujo en las maldivas durante 6 días.",
+    "imagen": "public/img/maldivas.jpg"
+},
+{
+    "nombre": "Safari en África",
+    "descripcion": "Un sueño en los resorts paradisíacos de Maldivas.",
+    "imagen": "public/img/safari.jpg"
+}
+]
+
+

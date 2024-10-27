@@ -1,0 +1,28 @@
+{
+    "cliente1": {
+        "titulo": "Carolina Sosa",
+        "cuerpo": "Hasta ahora las veces que he viajado con inspirate y viaja ha cumplido con las condiciones pactadas, excelente.",
+        "imagen": "public/img/cliente1.jpg",
+        "fecha": "2024-09-07"
+      },
+      "cliente2": {
+        "titulo": "Robert Pattinson",
+        "cuerpo": "Experiencia perfecta. Todo acorde a lo contratado, ningún tipo de problema. Repetiria sin duda. Excelente servicio",
+        "imagen": "public/img/cliente2.jpg",
+        "fecha": "2024-09-07"
+      },
+      "cliente 3": {
+        "titulo": "Martha Garcia",
+        "cuerpo": "Todo es positivo, en mi opinión nos ayudó muchísimo sus recomendaciones, la guía de Cancun es increíble.",
+        "imagen": "public/img/cliente3.jpg",
+        "fecha": "2024-09-07"
+      },
+
+      "cliente 4": {
+        "titulo": "Pablo Ortiz",
+        "cuerpo": "Soy cliente de Inspirate y viaja desde 2019, como siempre,todo perfecto,trato profesional,buen atención al cliente.",
+        "imagen": "public/img/cliente4.jpg",
+        "fecha": "2024-09-07"
+      }
+    }
+    
