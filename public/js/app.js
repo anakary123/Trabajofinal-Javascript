@@ -15,11 +15,9 @@ function cargarDestinos() {
                     <img src="${destino.imagen}" alt="${destino.nombre}">
                     <h2>${destino.nombre}</h2>
                     <p>${destino.descripcion}</p>
-                    <a href="views/presupuesto.html"></a>
-                    <button>Reservar</button>
-
-
-
+                    <a href="views/presupuesto.html">
+                        <button>Reservar</button>
+                    </a>
                 `;
 
                 destinosContainer.appendChild(card);
